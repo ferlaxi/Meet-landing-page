@@ -2,6 +2,19 @@
 
 This is Meet landing page!
 
+
+## Screenshot
+
+- Desktop (Browser: Firefox)
+
+![Desktop](/Desktop.png)
+
+
+- Mobile (Browser: Firefox)
+
+![Mobile](/Mobile.png)
+
+
 ## Built with
 
 - Semantic HTML5 markup
