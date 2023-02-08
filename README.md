@@ -24,5 +24,5 @@ This is Meet landing page!
 
 
 ## Links
-- Live Site URL: [Meet landing page]()🌐
+- Live Site URL: [Meet landing page](https://meet-landing-fer-laxi.netlify.app/)🌐
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
