@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply px-7 py-[14px] rounded-3xl
+    }
+    .circulo{
+        @apply relative flex justify-center items-center border border-mlp-gray w-16 h-16 rounded-full text-mlp-gray font-bold border-opacity-50
+    }
+    .linea{
+        @apply absolute border-r-mlp-gray h-20 w-[1px] bg-mlp-gray -mt-36 opacity-50
+    }
+    .formatoXL{
+        @apply  w-64 rounded-xl
+    }
+    .formatoMD{
+        @apply  w-44 rounded-xl
+    }
+    .formatoSM{
+        @apply  w-32 rounded-xl
+    }
+    .t_construccion{
+        @apply uppercase text-mlp-green-light tracking-[4px] font-bold
+    }
+    .formato_descripcion{
+        @apply font-bold text-mlp-dark-medium text-center leading-none
+    }
+    .formato_descripcion_2{
+        @apply text-mlp-gray text-center
+    }
+    .btn_morado{
+        @apply bg-mlp-purple text-mlp-white-medium px-5 py-[14px] rounded-3xl font-semibold
+    }
+    .opacidad{
+        @apply absolute bg-mlp-green-light xl:h-72 md:h-96 h-96 w-full opacity-80 z-0
+    }
+    .t_experimentar{
+        @apply font-bold text-mlp-white-medium leading-none
+    }
+    .hover_btn1{
+        @apply hover:bg-mlp-green-btn transition-all duration-300
+    }
+    .hover_btn2{
+        @apply hover:bg-mlp-purple-btn transition-all duration-300
+    }
+}
